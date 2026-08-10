@@ -2,8 +2,8 @@ import os
 import cv2
 import matplotlib.pyplot as plt
 
-
-face_cascade = cv2.CascadeClassifier("/Users/niklioni/Desktop/Artificial Intelligence/Assessment/haarcascade_frontalface_default.xml")
+CASCADE_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "haarcascade_frontalface_default.xml")
+face_cascade = cv2.CascadeClassifier(CASCADE_PATH)
 
 def extract_faces(img, face_cascade):
     faces = face_cascade.detectMultiScale(
