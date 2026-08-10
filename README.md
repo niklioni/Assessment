@@ -74,8 +74,8 @@ The pipeline was benchmarked on two well-known facial-expression datasets (not i
 ## Getting started
 
 ```bash
-git clone https://github.com/niklioni/Assessment.git
-cd Assessment
+git clone https://github.com/niklioni/facial-expression-recognition-classical-cv.git
+cd facial-expression-recognition-classical-cv
 pip install -r requirements.txt
 ```
 
